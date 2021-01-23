@@ -1,116 +1,254 @@
-/***/
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-.row {
-    margin: 0;
-}
-
-container {
-    padding: 70px 0;
-}
-
-p,
-li {
-    color: #444;
-    font-size: 14px;
-}
-
-header,
-.navbar {
-    background-color: #353d41;
-}
-
-#nav-container {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-#logo {
-    width: 75px;
-}
-
-.navbar-brand {
-    padding: 0;
-    color: #fff;
-}
-
-.navbar-brand:hover {
-    color: #fff;
-}
-
-#navbar-links a {
-    color: #fff;
-    cursor: pointer;
-}
-
-.navbar-expand-lg .navbar-nav .navlink {
-    padding: 1rem .8rem;
-}
-
-.main-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-section h2 {
-    font-size: 57px;
-    margin-bottom: 15%;
-}
-
-.main-section a p {
-    color: #fff;
-    font-size: 25px;
-}
-
-.main-section a {
-    color: #fff;
-    font-size: 20px;
-}
-
-
-/*ABOUT/*/
-
-#about-area {
-    background-color: #f9f9f9;
-}
-
-.main-title {
-    color: #444;
-    margin: 0 0 65px 0;
-    font-size: 40px;
-    text-align: center;
-}
-
-.main-title::after {
-    content: "";
-    border-top: 2px solid #333;
-    width: 15%;
-    position: absolute;
-    top: 120px;
-    left: 42.5%;
-}
-
-.about-title {
-    font-size: 17px;
-    color: #444;
-    text-transform: uppercase;
-    font-weight: bolder;
-}
-
-#about-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-#about-list {
-    line-height: 30px;
-}
-
-#about-list i {
-    color: #65daf9;
-    margin-right: 15px;
-}
+        /***/
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .row {
+            margin: 0;
+        }
+        
+        container {
+            padding: 70px 0;
+        }
+        
+        p,
+        li {
+            color: #444;
+            font-size: 14px;
+        }
+        
+        header,
+        .navbar {
+            background-color: #353d41;
+        }
+        
+        #nav-container {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        
+        #logo {
+            width: 75px;
+        }
+        
+        .navbar-brand {
+            padding: 0;
+            color: #fff;
+        }
+        
+        .navbar-brand:hover {
+            color: #fff;
+        }
+        
+        #navbar-links a {
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        .navbar-expand-lg .navbar-nav .navlink {
+            padding: 1rem .8rem;
+        }
+        
+        .main-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .main-section h2 {
+            font-size: 57px;
+            margin-bottom: 15%;
+            font-weight: bold;
+        }
+        
+        .main-section a p {
+            color: #fff;
+            font-size: 25px;
+        }
+        
+        .main-section a {
+            color: #fff;
+            font-size: 20px;
+        }
+        /*ABOUT/*/
+        
+        #about-area {
+            background-color: #f9f9f9;
+        }
+        
+        .main-title {
+            color: #444;
+            margin: 0 0 65px 0;
+            font-size: 40px;
+            text-align: center;
+        }
+        
+        .main-title::after {
+            content: "";
+            border-top: 2px solid #333;
+            width: 15%;
+            position: absolute;
+            top: 120px;
+            left: 42.5%;
+        }
+        
+        .about-title {
+            font-size: 17px;
+            color: #444;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+        
+        #about-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        #about-list {
+            line-height: 30px;
+        }
+        
+        #about-list i {
+            color: #65daf9;
+            margin-right: 15px;
+        }
+        /*Services*/
+        
+        .service-box {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .service-box i,
+        .service-box h4 {
+            transition: .5s;
+        }
+        
+        .service-box i {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #444;
+            cursor: pointer;
+        }
+        
+        .service-box h4 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .service-box:hover>i,
+        .service-box:hover>h4 {
+            color: #65daf9;
+        }
+        
+        .circle-area div {
+            padding: 0 40px;
+        }
+        
+        .progressbar-text {
+            font-weight: bold;
+            font-size: 32px;
+        }
+        
+        #data-area p {
+            color: #fff;
+            text-align: center;
+            font-size: 26px;
+            margin-top: 20px;
+        }
+        /*TEAM*/
+        
+        .card-body {
+            text-align: center;
+        }
+        /*Job*/
+        
+        #apply-area {
+            height: 500px;
+        }
+        
+        #apply-area .container-fluid,
+        #apply-area .row {
+            height: 100%;
+        }
+        
+        #apply-area .apply-box {
+            text-align: center;
+            padding: 70px;
+            50px
+        }
+        
+        #company-img {
+            background-image: url('../img/empresa.jpg');
+            background-size: cover;
+            height: 100%;
+        }
+        
+        #patter-img h4 #patter-img p {
+            color: #fff;
+        }
+        
+        #pattern-img h4 {
+            margin-bottom 20px;
+            text-trasform: uppercase;
+        }
+        
+        #pattern-img p {
+            margin-bottom: 20px;
+        }
+        
+        #apply-btn {
+            display: block;
+            height: auto;
+            width: 180px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            background-color: transparent;
+            border-color: #fff;
+        }
+        
+        #apply-btn:hover {
+            border-color: #65DAF9;
+            background-color: #65DAF9;
+        }
+        /**Port*/
+        
+        #portifolio-area button {
+            border-radius: 20px;
+            background-color: #65DAF9;
+            color: #fff;
+            width: 200px;
+            height: 60px;
+        }
+        
+        .project-box {
+            margin-bottom: 30px;
+        }
+        
+        #filter-btn-box {
+            margin-bottom: 50px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        #portfolio-area .filter-btn {
+            color: #444;
+            border: 1px solid #444;
+            background-color: transparent;
+            text-transform: none;
+            margin: 0 15px;
+            min-width: 100px;
+            width: auto;
+            height: 40px;
+            line-height: 40px;
+            padding: 0 20px;
+        }
+        
+        #portfolio-area .filter-btn.active,
+        #portfolio-area .filter-btn:hover {
+            color: #fff;
+            background-color: #65daf9;
+            border-color: #65daf9;
+        }
